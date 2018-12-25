@@ -25,7 +25,7 @@ class ExcelOutput():
             
             #Create a list of  BoltBearing Objects and pass parameters
             list2 =[]
-            for row in list:
+            for row in list1:
                 x = BoltBearing(row[0], row[1], row[2], row[3], row[4], row[5], row[6])
                 list2.append(x);
             
